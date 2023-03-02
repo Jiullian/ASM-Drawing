@@ -1,5 +1,4 @@
 # ASM-DRAWING
-***
 ## PRESENTATION
 ***
 This assembler project allows to draw a defined number of triangles. Indeed with the function rdrand you can generate 3 points which will be stored in an array and then sent to the XDrawLine function. Then we calculate a determinant of the triangle to know if the triangle is direct or indirect.
