@@ -12,6 +12,7 @@ chmod +x ASM_install.sh
 ./ASM_install.sh
 To assemble a program written in NASM assembly :
 nasm -felf64 -o ESGI_AlgorithmederemplissageenAssembleur-2A3_E1_02-23-09.16.21_projet.o ESGI_AlgorithmederemplissageenAssembleur-2A3_E1_02-23-09.16.21_projet.asm
+
 Then generate the executable with :
 gcc -m64 -no-pie -o program_executable ESGI_AlgorithmederemplissageenAssembleur-2A3_E1_02-23-09.16.21_projet.o
 ./ESGI_AlgorithmederemplissageenAssembleur-2A3_E1_02-23-09.16.21_projet
